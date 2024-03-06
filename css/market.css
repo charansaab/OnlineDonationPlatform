@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+#hero {
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e9ecef;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(../images/header.jpg);
+}
+
+#products {
+    padding: 40px 0;
+}
+
+#contact {
+    background-color: #e9ecef;
+    padding: 40px 0;
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  
+  .card {
+    flex: 1 0 auto;
+  }
+
+  .card-img-top{
+    width: 286;
+    height: 180;
+  }
